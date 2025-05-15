@@ -1,5 +1,3 @@
-import { metaData } from './config';
-
 export default function robots() {
   return {
     rules: [
@@ -7,5 +5,5 @@ export default function robots() {
         userAgent: '*',
       },
     ],
-  };
+  }
 }
